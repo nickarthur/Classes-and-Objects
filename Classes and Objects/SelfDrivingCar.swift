@@ -17,11 +17,13 @@ class SelfDrivingCar : Car {
     override func drive() {
         super.drive()
         
-        if destination != nil {
+        // using optional bindind is better "swiftier" way to
+        // prevent nil pointer exceptions
+        if let userSetdestination = destination {
             
             // force unwrap to demonstrate the danger of force unwrapping
             // and optional
-            print("driving towards " + destination!)
+            print("driving towards " + userSetdestination)
             
         }
     }
