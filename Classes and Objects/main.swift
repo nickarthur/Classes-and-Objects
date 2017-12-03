@@ -8,6 +8,9 @@
 
 import Foundation
 
+let sdc = SelfDrivingCar()
+
+sdc.drive()
 
 
 
