@@ -11,7 +11,7 @@ import Foundation
 let sdc = SelfDrivingCar()
 
 // preventing the crash the lazy way-- i.e. insure the optional has a value
-sdc.destination = "1 Hacker Loop"
+sdc.destination = "1 Hacker Way"
 sdc.drive()
 
 
