@@ -26,14 +26,19 @@ let someRichGuysCar = Car(customerChosenColour: "Gold")
 // call a clss method
 myCar.drive()
 
+
 //calling a function-- that has no class
 print(arc4random_uniform(3))
+
+// *** INHERITANCE ***
 
 // create instance of derived type
 let mySelfDrivingCar = SelfDrivingCar()
 
+
 // call an inherited method
 mySelfDrivingCar.drive()
 print(mySelfDrivingCar.colour)
+
 
 
