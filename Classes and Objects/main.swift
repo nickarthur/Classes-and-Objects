@@ -8,37 +8,6 @@
 
 import Foundation
 
-let myCar = Car()
-
-let someRichGuysCar = Car(customerChosenColour: "Gold")
-
-//
-//print ("Color: \(myCar.colour)")
-//print ("Seats: \(myCar.numberOfSeats)")
-//print("CarType: (\(myCar.typeOfCar)) which is has a hash of: \(myCar.typeOfCar.hashValue)")
-//
-//
-//print ("Color:   \(someRichGuysCar.colour)")
-//print ("Seats:   \(someRichGuysCar.numberOfSeats)")
-//print("CarType: (\(someRichGuysCar.typeOfCar)) which is has a hash of: \(myCar.typeOfCar.hashValue)")
-
-
-// call a clss method
-myCar.drive()
-
-
-//calling a function-- that has no class
-print(arc4random_uniform(3))
-
-// *** INHERITANCE ***
-
-// create instance of derived type
-let mySelfDrivingCar = SelfDrivingCar()
-
-
-// call an inherited method
-mySelfDrivingCar.drive()
-print(mySelfDrivingCar.colour)
 
 
 
