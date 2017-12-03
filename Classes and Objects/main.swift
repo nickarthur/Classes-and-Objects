@@ -12,15 +12,23 @@ let myCar = Car()
 
 let someRichGuysCar = Car(customerChosenColour: "Gold")
 
+//
+//print ("Color: \(myCar.colour)")
+//print ("Seats: \(myCar.numberOfSeats)")
+//print("CarType: (\(myCar.typeOfCar)) which is has a hash of: \(myCar.typeOfCar.hashValue)")
+//
+//
+//print ("Color:   \(someRichGuysCar.colour)")
+//print ("Seats:   \(someRichGuysCar.numberOfSeats)")
+//print("CarType: (\(someRichGuysCar.typeOfCar)) which is has a hash of: \(myCar.typeOfCar.hashValue)")
 
-print ("Color: \(myCar.colour)")
-print ("Seats: \(myCar.numberOfSeats)")
-print("CarType: (\(myCar.typeOfCar)) which is has a hash of: \(myCar.typeOfCar.hashValue)")
 
+// call a clss method
+myCar.drive()
 
-print ("Color:   \(someRichGuysCar.colour)")
-print ("Seats:   \(someRichGuysCar.numberOfSeats)")
-print("CarType: (\(someRichGuysCar.typeOfCar)) which is has a hash of: \(myCar.typeOfCar.hashValue)")
+//calling a function-- that has no class
+print(arc4random_uniform(3))
+
 
 
 
