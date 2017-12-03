@@ -17,9 +17,11 @@ class SelfDrivingCar : Car {
     override func drive() {
         super.drive()
         
+        if destination != nil {
+            
         // force unwrap to demonstrate the danger of force unwrapping
-        // and optional 
-        print("driving towards " + destination!)
+        // and optional
+        print("driving towards " + destination!)}
     }
     
 }
