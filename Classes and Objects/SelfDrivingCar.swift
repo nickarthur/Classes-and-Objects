@@ -13,15 +13,17 @@ class SelfDrivingCar : Car {
     // change to be optional so all cars don't start with same
     // destination
     var destination : String?
-
+    
     override func drive() {
         super.drive()
         
         if destination != nil {
             
-        // force unwrap to demonstrate the danger of force unwrapping
-        // and optional
-        print("driving towards " + destination!)}
+            // force unwrap to demonstrate the danger of force unwrapping
+            // and optional
+            print("driving towards " + destination!)
+            
+        }
     }
     
 }
